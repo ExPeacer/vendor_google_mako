@@ -1,19 +1,35 @@
 ui_print("***********************************************");
-ui_print("        Google Apps for Android 4.3.0");
+ui_print("        Google Apps for Android 4.4.0");
 ui_print("***********************************************");
 
 ui_print("Installing files...");
 run_program("/sbin/busybox", "mount", "/system");
 show_progress(1, 15);
-delete("/system/app/Provision.apk","/system/app/QuickSearchBox.apk","/system/app/SetupWizard.apk","/system/app/Velvet.apk","/system/app/Vending.apk","/system/app/BrowserProviderProxy.apk","/system/app/PartnerBookmarksProvider.apk","/system/app/Gmail2.apk");
+
+delete("/system/app/Velvet.apk","/system/app/QuickSearchBox.apk","/system/app/Vending.apk","/system/app/BrowserProviderProxy.apk","/system/app/PartnerBookmarksProvider.apk","/system/app/GmsCore.apk","/system/app/GoogleOneTimeInitializer.apk","/system/app/Gmail.apk","/system/app/Calendar.apk","/system/app/GooglePlus.apk","/system/app/GoogleCalendarSyncAdapter.apk");
+
+# Removing old/unused lib from a prior version of QuickSearchbox
+delete("/system/lib/libgoogle_recognizer_jni.so");
+
+# Removing the stock AOSP launcher for the new GoogleHome
+delete("/system/priv-app/Launcher2.apk","/system/priv-app/Launcher3.apk");
+
+ui_print("Copying files...");
+ui_print(" ");
 package_extract_dir("system", "/system");
+
 set_perm(0, 0, 0755, "/system/addon.d/70-gapps.sh");
 package_extract_dir("optional", "/tmp");
 package_extract_file("install-optional.sh", "/tmp/install-optional.sh");
 set_perm(0, 0, 0777, "/tmp/install-optional.sh");
 run_program("/tmp/install-optional.sh", "");
-show_progress(1, 15);
-ui_print("Cleaning up...");
+show_progress(0.2, 2);
+ui_print("Fixing Permissions...");
+ui_print(" ");
 set_perm_recursive(0, 0, 0755, 0644, "/system/app");
+ui_print("Unmounting system...");
+ui_print(" ");
 run_program("/sbin/busybox", "umount", "/system");
-ui_print("Installation complete!");
+ui_print("GApps Installation Complete!");
+ui_print(" ");
+sleep(3);
