@@ -1,9 +1,12 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: GPROqv3WWaNVlT1skzam8DTbc2Q=
+SHA1-Digest-Manifest: FkYvT1J9grTTkQsRS7rGOEB0ylY=
 
-Name: system/app/ChromeBookmarksSyncAdapter.apk
-SHA1-Digest: EnsULWRS6uOt97aG69c+AljXKZ8=
+Name: system/priv-app/talkback.apk
+SHA1-Digest: 1ayDlVxmtBHdUFu1JAEMwQqdh+0=
+
+Name: system/lib/libvorbisencoder.so
+SHA1-Digest: iSVFqNZ0NIIrhwteX84/3Q8gJP4=
 
 Name: system/priv-app/GoogleBackupTransport.apk
 SHA1-Digest: 7MbZDClTc7Dw63FqAC3NjRotkNw=
@@ -12,14 +15,17 @@ Name: optional/face/vendor/pittpatt/models/detection/yaw_roll_face_det
  ectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24.bin
 SHA1-Digest: fiq3ujQvqN2QDZkJTnFSZZmg+Cw=
 
+Name: system/app/Music2.apk
+SHA1-Digest: WUCHFiuEV/ta06J6pgZ1TXQ1iWk=
+
 Name: system/etc/preferred-apps/google.xml
 SHA1-Digest: RBl7CHmTT6q5LYRv8uAKLukGfKY=
 
-Name: system/usr/srec/en-US/hmm_symbols
-SHA1-Digest: Lujjxwdd84JTS3CUlriUICNQUZw=
-
 Name: system/lib/libwebrtc_audio_preprocessing.so
 SHA1-Digest: P+gNMFPsIo8su7nnvznS4cT5pnE=
+
+Name: system/usr/srec/en-US/hmm_symbols
+SHA1-Digest: Lujjxwdd84JTS3CUlriUICNQUZw=
 
 Name: system/app/GoogleContactsSyncAdapter.apk
 SHA1-Digest: I7ci1fSvzY0wwWMTUMDC+0F8twA=
@@ -33,6 +39,9 @@ SHA1-Digest: 6iF2x7IjsnPlpheGm3wXfNP0HiI=
 Name: optional/face/lib/libfacelock_jni.so
 SHA1-Digest: 6USSHWZ+tLuyiutdKlWlhKWfem0=
 
+Name: system/app/QuickOffice.apk
+SHA1-Digest: ojJd3UWwna0hRI6/d7MHTpn1tDc=
+
 Name: system/lib/libstlport_shared.so
 SHA1-Digest: IdAJD1kEVDugGZqRvI3r9qZAKsY=
 
@@ -44,10 +53,13 @@ Name: system/lib/librsjni.so
 SHA1-Digest: mb5pjFZTYdgNP3MbnbvlgSnlFI8=
 
 Name: META-INF/com/google/android/updater-script
-SHA1-Digest: Li69HSdrOr949MUxFNfZKSwT3AA=
+SHA1-Digest: 3zm84m3G7YJQB/At6APkwLEni8c=
 
 Name: system/usr/srec/en-US/wordlist
 SHA1-Digest: zHaH5pmSyNoXNV3hzErhU+HgqOc=
+
+Name: system/lib/libocrclient.so
+SHA1-Digest: H0arLH0edGNBdACMl2QUlNFlW0A=
 
 Name: system/priv-app/GooglePartnerSetup.apk
 SHA1-Digest: tlp0zIdDwxmNI4+WbL4zL+6yrSg=
@@ -55,17 +67,20 @@ SHA1-Digest: tlp0zIdDwxmNI4+WbL4zL+6yrSg=
 Name: system/priv-app/GoogleLoginService.apk
 SHA1-Digest: cjtV8uK+Mfxw2tsMrC6FlIOK3Rs=
 
-Name: system/lib/librs.antblur.so
-SHA1-Digest: 7jvhMuGsPNRbOegoQvBcWJxYKs0=
-
 Name: system/usr/srec/en-US/grammar.config
 SHA1-Digest: 2nOyNWzDEeAi2wLNMltpgVUfsS8=
+
+Name: system/lib/librs.antblur.so
+SHA1-Digest: 7jvhMuGsPNRbOegoQvBcWJxYKs0=
 
 Name: system/usr/srec/en-US/hmmlist
 SHA1-Digest: F+sXpQbkS7YMHsQMVAcihNz8KzY=
 
 Name: system/usr/srec/en-US/hotword_prompt.txt
 SHA1-Digest: ZuJVy8gIieraPoMqynOMNDkWZP4=
+
+Name: system/lib/libndk1.so
+SHA1-Digest: S++uCaFx/yUg2h9xgMdKsNIrR8s=
 
 Name: system/lib/librs.fixedframe.so
 SHA1-Digest: FC/w5m1kco4agG53xeDETZHYboY=
@@ -83,7 +98,7 @@ Name: system/lib/librs.antblur_drama.so
 SHA1-Digest: BEB97xAwVM/KKM6gc/1LYFP2BkM=
 
 Name: system/etc/g.prop
-SHA1-Digest: RwC+XqBC9Xx3yqCqV4dUsKrY4jI=
+SHA1-Digest: QRDHcVCkPBxRrJ0auP1wi8FowUE=
 
 Name: system/priv-app/GoogleServicesFramework.apk
 SHA1-Digest: PGBqhggCXGirTLnRGTYh9RVYHqc=
@@ -93,6 +108,9 @@ SHA1-Digest: O4/dF5gmu4P2R6h4cJ0HH9dLMT0=
 
 Name: system/lib/librs.antblur_constant.so
 SHA1-Digest: RqVAaUFEux1/sZap18aaOJF3UGk=
+
+Name: system/lib/librectifier-v7a.so
+SHA1-Digest: nAU6TQim+quIKxNPsEB6vVX5NcU=
 
 Name: optional/face/app/FaceLock.apk
 SHA1-Digest: Bxk1dM58Zh7CIwhkahVy2fcH6CI=
@@ -112,8 +130,11 @@ SHA1-Digest: l8/XYD+Shc9RuLVFVZjR/GYc/Us=
 Name: system/priv-app/Phonesky.apk
 SHA1-Digest: cdOXZAALXNs3eVUeLNG4gLxr2xY=
 
+Name: system/app/Drive.apk
+SHA1-Digest: 5cY0oMAQ5ffA3WVyoACgROhUKx0=
+
 Name: system/app/PlusOne.apk
-SHA1-Digest: 7ThBINT2jcRAGiHdXsLnQ5CqdNE=
+SHA1-Digest: Z/DMPPcOK1ele/T7Asc//tnrUGE=
 
 Name: system/lib/libvideochat_jni.so
 SHA1-Digest: tm5lbtXs6NlZUmeL29lB5eoGlpM=
@@ -125,7 +146,7 @@ Name: system/priv-app/OneTimeInitializer.apk
 SHA1-Digest: WgynJqEa3WtNx6ba4p1n2jTlmH8=
 
 Name: system/app/CalendarGoogle.apk
-SHA1-Digest: toXq259aFqOuUyUE9bmZ561vK6Y=
+SHA1-Digest: RvKWgXcGgAmmG5BGu6OlisRCyWc=
 
 Name: system/lib/librs.image_wrapper.so
 SHA1-Digest: ggOzHXskL8UAYSr83C6Z4gCEzEg=
@@ -149,7 +170,7 @@ Name: system/usr/srec/en-US/rescoring_lm
 SHA1-Digest: cfXOJpI4HLGFAkIeC2L4gHfEFUc=
 
 Name: system/lib/libnetjni.so
-SHA1-Digest: sR3TKfJHiWYIiC+M7HwUqcVDe1M=
+SHA1-Digest: TeOcbdqMSNH2meljydfn5nNZVu8=
 
 Name: system/usr/srec/en-US/phonelist
 SHA1-Digest: S2L0nVL6UG1/1SM58nULzylbpFY=
@@ -160,8 +181,14 @@ SHA1-Digest: tZShQLaMekTpoGKP/7OqiMLoW0A=
 Name: system/lib/libfilterframework_jni.so
 SHA1-Digest: 944qUotZcez6LLOh8pu+R4tyO8A=
 
+Name: system/lib/libdocscanner_image-v7a.so
+SHA1-Digest: GJencWsubJkXRILQojFVYLHIRYo=
+
 Name: system/usr/srec/en-US/ep_acoustic_model
 SHA1-Digest: TRJvr6ElzKlRSjdRODtxGDwejN4=
+
+Name: system/app/GoogleEarth.apk
+SHA1-Digest: xEvaq5b7uZHIFocPUWjGHNT2YCg=
 
 Name: system/lib/librs.grey.so
 SHA1-Digest: wjR9dZftSWlKVBSLtyWAP8UGv6I=
@@ -175,21 +202,27 @@ SHA1-Digest: 69Yaho7Yo+caOZ0px+CEIDV8M48=
 Name: system/usr/srec/en-US/metadata
 SHA1-Digest: 33LIloWsGfU0wBo5iQyWapCDViY=
 
+Name: system/priv-app/Wallet.apk
+SHA1-Digest: YNhZXwqrj+Xs8/Jsd3PSUeEuPwE=
+
 Name: system/framework/com.google.android.media.effects.jar
 SHA1-Digest: ENzgJAw/Yca/Stmt3qlrSkJmTIg=
 
 Name: system/usr/srec/en-US/offensive_word_normalizer
 SHA1-Digest: JlWzqRWPoWw50GU8zCZrADdDH+E=
 
-Name: system/lib/libfrsdk.so
-SHA1-Digest: 7pCEkV0Plnkz7hji6tkJ6QeXPdc=
-
 Name: system/usr/srec/en-US/contacts.abnf
 SHA1-Digest: Hi3CXkC6syyX5QYh/YuF+40jt4s=
+
+Name: system/lib/libfrsdk.so
+SHA1-Digest: 7pCEkV0Plnkz7hji6tkJ6QeXPdc=
 
 Name: optional/face/vendor/pittpatt/models/detection/yaw_roll_face_det
  ectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin
 SHA1-Digest: s/NkcBPW6TuuJOjTT2pcSuykc2M=
+
+Name: system/app/Videos.apk
+SHA1-Digest: GewaVrc8ZiMFvjMHCv9FFeiDhAU=
 
 Name: system/etc/permissions/com.google.android.media.effects.xml
 SHA1-Digest: j/P++0UEThlMLHb5ewoUXe96pQ4=
@@ -197,11 +230,14 @@ SHA1-Digest: j/P++0UEThlMLHb5ewoUXe96pQ4=
 Name: system/app/Street.apk
 SHA1-Digest: IifJvCP45+/DFfv29fdR8/29l4U=
 
-Name: system/lib/libplus_jni_v8.so
-SHA1-Digest: FP7csEMQlxp0kqPl3p9Hg2+3KVg=
+Name: system/lib/libdocsimageutils.so
+SHA1-Digest: B3xaiRt9O6izsT5tKIjkx3tE0Bg=
 
 Name: system/usr/srec/en-US/compile_grammar.config
 SHA1-Digest: oC0Hh1Un8OqUdqsQCXzE5h4aqRg=
+
+Name: system/lib/libplus_jni_v8.so
+SHA1-Digest: FP7csEMQlxp0kqPl3p9Hg2+3KVg=
 
 Name: system/etc/permissions/com.google.widevine.software.drm.xml
 SHA1-Digest: MvejKuFQO4VpexrZo29KXJ+HiE0=
@@ -219,6 +255,9 @@ Name: optional/face/vendor/pittpatt/models/detection/multi_pose_face_l
  andmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32.bin
 SHA1-Digest: u1R6Tk2fyCq+hK/ZJ49ez0HITAI=
 
+Name: system/app/Keep.apk
+SHA1-Digest: YhjRyvEIbVjMkL/ZVTCrs8pLInA=
+
 Name: optional/face/vendor/pittpatt/models/recognition/face.face.y0-y0
  -22-b-N.bin
 SHA1-Digest: OkkgFkQeoW4GrJlkIMgtraB9LgE=
@@ -226,11 +265,14 @@ SHA1-Digest: OkkgFkQeoW4GrJlkIMgtraB9LgE=
 Name: system/usr/srec/en-US/endpointer_dictation.config
 SHA1-Digest: j/ixWk0Vzc1Re76RugKSBPSkHbw=
 
+Name: system/lib/libearthandroid.so
+SHA1-Digest: 5w13KfcAsam6hwkFa6ULZ0uKn9M=
+
 Name: system/etc/permissions/com.google.android.maps.xml
 SHA1-Digest: QaPNB5FUfwkZ5T3fG1bXJpF8pNY=
 
 Name: system/addon.d/70-gapps.sh
-SHA1-Digest: ev8miPzOHkYtKbvip1K/9fIsNU4=
+SHA1-Digest: SEysB3Fv85E7AeI+7YJ6Ld86N/Q=
 
 Name: system/app/GenieWidget.apk
 SHA1-Digest: c+s4hIpVGEH8/cQLqOFaEo5J87M=
@@ -241,27 +283,48 @@ SHA1-Digest: 9FmiJXBzApZEHKbiaQMGRgma8D4=
 Name: system/usr/srec/en-US/dict
 SHA1-Digest: JFQY5FzKYD9KqQiGzEP2yhkU+Wc=
 
+Name: system/app/LatinImeGoogle.apk
+SHA1-Digest: KELrFJAISxfSuRFLZfzLFqQUQ6c=
+
 Name: system/app/YouTube.apk
 SHA1-Digest: vz7h/lvK90wlSezrVNFzjBtDEG8=
+
+Name: system/app/Magazines.apk
+SHA1-Digest: BftsZAACkV+eIvecS7G7uamkYrc=
 
 Name: system/lib/libAppDataSearch.so
 SHA1-Digest: nem8YRRqLYXn2y5BocSfttdsmZg=
 
+Name: system/lib/libjni_latinime.so
+SHA1-Digest: /b2WoauBVRTDHGbfCvXR/pECw8w=
+
+Name: system/lib/libearthmobile.so
+SHA1-Digest: pKk5QLX0pfUl/wbeqlCuTCZ4ZE0=
+
 Name: system/lib/libmoviemaker-jni.so
 SHA1-Digest: lUDZ5Df9KmHpmvSbF63AX/v1v1k=
 
-Name: system/framework/com.google.android.maps.jar
-SHA1-Digest: T79R1liRVXgRX2x1PaqVayCKmrA=
+Name: system/lib/libWVphoneAPI.so
+SHA1-Digest: IJDSxP9ddKLYBSgbDBDrOPcoPjg=
+
+Name: system/app/GoogleEars.apk
+SHA1-Digest: eszb+iZbZ60uIyRcBPUrTzVfSZ8=
 
 Name: system/etc/permissions/features.xml
 SHA1-Digest: DfInr4v3B2dCSSDL8XO3gd9lw1Y=
 
-Name: system/usr/srec/en-US/phone_state_map
-SHA1-Digest: JlRn2MCdA5qXE16m4q9LkrYuuyY=
+Name: system/framework/com.google.android.maps.jar
+SHA1-Digest: T79R1liRVXgRX2x1PaqVayCKmrA=
 
 Name: optional/face/vendor/pittpatt/models/detection/yaw_roll_face_det
  ectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin
 SHA1-Digest: O8F5x2UAz8sUggoEkKHeGoYc5M8=
+
+Name: system/usr/srec/en-US/phone_state_map
+SHA1-Digest: JlRn2MCdA5qXE16m4q9LkrYuuyY=
+
+Name: system/lib/liblinearalloc.so
+SHA1-Digest: xZqp8VvkaRu25Xa37QATB2XsG/U=
 
 Name: system/usr/srec/en-US/hotword.config
 SHA1-Digest: vY9qv9v/FpuW5ZrRh2abWOPOLSM=
@@ -275,11 +338,14 @@ SHA1-Digest: fsSxV90E9tkcm/5Zfz0oGGPCjDU=
 Name: system/app/Gmail2.apk
 SHA1-Digest: BRnh7ieV75LXjMmUmfJDudMlgpY=
 
+Name: system/lib/librs.retrolux.so
+SHA1-Digest: sxAYpbEPV1fBZ2OL3yjO6pl/B6s=
+
 Name: system/app/Maps.apk
 SHA1-Digest: EbpZs1AyrYV2h9/yeGmRc38ZNMQ=
 
-Name: system/lib/librs.retrolux.so
-SHA1-Digest: sxAYpbEPV1fBZ2OL3yjO6pl/B6s=
+Name: system/app/Books.apk
+SHA1-Digest: 0Do34g35t1ZGZGD5Rru49yyrX4I=
 
 Name: system/app/GoogleTTS.apk
 SHA1-Digest: ZaUsuAgFMfEPN3RBTFqcbMk0lhg=
@@ -287,14 +353,17 @@ SHA1-Digest: ZaUsuAgFMfEPN3RBTFqcbMk0lhg=
 Name: system/priv-app/SetupWizard.apk
 SHA1-Digest: 3rRNQZ5LrCQXho2I57jNe6ZSf9A=
 
+Name: system/app/PlayGames.apk
+SHA1-Digest: 8vDSeYb7GZDywq34dG5czvrvBvQ=
+
 Name: system/priv-app/Velvet.apk
 SHA1-Digest: 9hhYZAC7VwPXtoJkDo11tjZAoV8=
 
-Name: install-optional.sh
-SHA1-Digest: d+qJvzhn1wTI2rx3FYj7hrKzeaw=
-
 Name: system/lib/librs.drama.so
 SHA1-Digest: JDE19/c3ctM1lulIgrxvF/5WFtE=
+
+Name: install-optional.sh
+SHA1-Digest: d+qJvzhn1wTI2rx3FYj7hrKzeaw=
 
 Name: system/usr/srec/en-US/c_fst
 SHA1-Digest: /2PvNC/f58LvddzoiN7zRnE5KMo=
@@ -307,6 +376,9 @@ SHA1-Digest: dMfu49WrA2XdtTR6ByDUl6m8c9o=
 
 Name: system/app/Hangouts.apk
 SHA1-Digest: hnmPdJAF1mf32QhsTKNmpc93EFk=
+
+Name: system/lib/libjni_latinimegoogle.so
+SHA1-Digest: 1RxUHh9xVNZEGR4OqKQFxo+zS2U=
 
 Name: system/lib/libspeexwrapper.so
 SHA1-Digest: 5/HuCxJqMoxzmjqxjBjnzj8Rprg=

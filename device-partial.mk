@@ -30,6 +30,18 @@ PRODUCT_COPY_FILES += \
 	vendor/google/mako/proprietary/system/system/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
 	vendor/google/mako/proprietary/system/system/lib/libstlport_shared.so:system/lib/libstlport_shared.so \
 	vendor/google/mako/proprietary/system/system/lib/libjni_t13n_shared_engine.so:system/lib/libjni_t13n_shared_engine.so \
+	vendor/google/mako/proprietary/system/system/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+	vendor/google/mako/proprietary/system/system/lib/libdocscanner_image-v7a.so:system/lib/libdocscanner_image-v7a.so \
+	vendor/google/mako/proprietary/system/system/lib/libdocsimageutils.so:system/lib/libdocsimageutils.so \
+	vendor/google/mako/proprietary/system/system/lib/libearthandroid.so:system/lib/libearthandroid.so \
+	vendor/google/mako/proprietary/system/system/lib/libearthmobile.so:system/lib/libearthmobile.so \
+	vendor/google/mako/proprietary/system/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+	vendor/google/mako/proprietary/system/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
+	vendor/google/mako/proprietary/system/system/lib/liblinearalloc.so:system/lib/liblinearalloc.so \
+	vendor/google/mako/proprietary/system/system/lib/libndk1.so:system/lib/libndk1.so \
+	vendor/google/mako/proprietary/system/system/lib/libocrclient.so.so:system/lib/libocrclient.so \
+	vendor/google/mako/proprietary/system/system/lib/librectifier-v7a.so:system/lib/librectifier-v7a.so \
+	vendor/google/mako/proprietary/system/system/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so\	
 	vendor/google/mako/proprietary/system/system/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
 	vendor/google/mako/proprietary/system/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
 	vendor/google/mako/proprietary/system/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
